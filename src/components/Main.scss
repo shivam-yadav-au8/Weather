@@ -1,0 +1,152 @@
+.whole
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .title
+{   
+
+   font-size: xx-large;
+  background: -webkit-linear-gradient(315deg,#eee,rgb(148, 44, 44), rgb(165, 30, 30));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    display:flex;
+  height: 64px;
+  margin-left:0%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  transition: 0.3s 1.4s;
+  opacity:1;
+  padding-left: 0%;
+}
+.inp
+{
+    width: 60%;
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 10px 15px 10px 40px;
+    color: #c5c5c5;
+    transition: 0.2s;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    &:focus {
+      color: #191919;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      outline: none;
+    }
+  
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.wrapper
+{
+    display: flex;
+    padding-top: 60px;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+    .location
+    {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        .large
+        {
+        #icon
+        {
+                color: #fff;
+                text-shadow: 1px 1px 1px #ccc;
+                font-size: 3.5em;
+            }
+        .temp
+        {
+            font-size:xx-large;
+            color: white;
+        }
+    }
+        
+    }
+    .right
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 200px;
+        background: rgba(200, 54, 54, 0.5);
+        .top
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            
+            label
+            {
+                display: flex;
+                flex-wrap: wrap;
+                
+                font-size: smaller;
+            }
+            .data
+            {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+               
+                font-size: large;
+                flex-direction:row;
+                justify-content: space-around;
+                align-items:stretch; 
+            }
+        }
+        .bottom
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            
+            label
+            {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                
+                font-size: smaller;
+            }
+            .data
+            {
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                font-size: large;
+                flex-direction:row;
+                justify-content: space-around;
+                align-items:center; 
+            }
+        }
+    }
+}
+}
